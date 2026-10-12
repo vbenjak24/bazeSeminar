@@ -1,0 +1,5 @@
+var a: Set = [1, 2, 3, 3]	// [1, 2, 3]
+var b: Set = [2, 3, 4]
+a.union(b)		// [1, 2, 3, 4]
+a.intersection(b)	// [2, 3]
+a.subtracting(b) // [1]
